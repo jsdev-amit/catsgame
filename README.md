@@ -17,4 +17,4 @@ Babel
 And that's it you are good to go
 
 
-![alt text](https://github.com/getonlineamit/dev-enviornment/blob/master/git.png)
+![alt text](https://github.com/humptywebuser/catscodingexercise/blob/master/Cats%20Game.png)
