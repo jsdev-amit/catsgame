@@ -1,0 +1,136 @@
+<html>
+<head>
+	<base href="/" />
+	<title>Cats Game</title>
+	<link rel="stylesheet" href="app/style/style.css">
+</head>
+<body>
+	<header>
+		<h1>Cat Game</h1>
+	</header>
+	<div class="container">
+		
+		<div class="rules">
+			<p><strong>Game Rules -</strong>
+			</p>
+			<ol>
+				<li>User will win the game if grid contains all unique cats in a row.</li>
+				<li>User will lose the game if there are duplicate cats in a row.</li>
+				<li>Duplicate cats are allowed in a column.</li>
+				<li>Whole grid should be filled with cats before displaying any result.</li>
+			</ol>
+			<div class="games-control">
+				<button class="btn" id="resetGame">Reset & Play</button>
+			</div>
+		</div>
+
+		<section class="grid cats">
+			<div class="grid__container" id="catGrid">
+				<div class="grid__item" data-id="0">
+					<div class="grid__img">
+						<img src="./assets/cat_1.png" alt="cat" title="cat">
+					</div>
+				</div>
+				<div class="grid__item" data-id="1">
+					<div class="grid__img">
+						<img src="./assets/cat_2.png" alt="cat" title="cat">
+					</div>
+				</div>
+				<div class="grid__item" data-id="2">
+					<div class="grid__img">
+						<img src="./assets/cat_3.png" alt="cat" title="cat">
+					</div>
+				</div>
+				<div class="grid__item" data-id="3">
+					<div class="grid__img">
+						<img src="./assets/cat_4.png" alt="cat" title="cat">
+					</div>
+				</div>
+				<div class="grid__item" data-id="4">
+					<div class="grid__img">
+						<img src="./assets/cat_5.png" alt="cat" title="cat">
+					</div>
+				</div>
+				<div class="grid__item" data-id="5">
+					<div class="grid__img">
+						<img src="./assets/cat_6.png" alt="cat" title="cat">
+					</div>
+				</div>
+				<div class="grid__item" data-id="6">
+					<div class="grid__img">
+						<img src="./assets/cat_7.png" alt="cat" title="cat">
+					</div>
+				</div>
+				<div class="grid__item" data-id="7">
+					<div class="grid__img">
+						<img src="./assets/cat_8.png" alt="cat" title="cat">
+					</div>
+				</div>
+				<div class="grid__item" data-id="8">
+					<div class="grid__img">
+						<img src="./assets/cat_9.png" alt="cat" title="cat">
+					</div>
+				</div>
+				<div class="grid__item" data-id="9">
+					<div class="grid__img">
+						<img src="./assets/cat_10.png" alt="cat" title="cat">
+					</div>
+				</div>
+				<div class="grid__item" data-id="10">
+					<div class="grid__img">
+						<img src="./assets/cat_11.png" alt="cat" title="cat">
+					</div>
+				</div>
+				<div class="grid__item" data-id="11">
+					<div class="grid__img">
+						<img src="./assets/cat_12.png" alt="cat" title="cat">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="grid" id="catGridResult"></section>
+	</div>
+	<!--Bundled file-->
+	<script type="text/template" id="gridTemplate">
+		<div class="grid__container">
+				<div class="grid__item">
+					<div class="grid__img"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__img"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__img"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__img"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__img"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__img"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__img"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__img"></div>
+				</div>
+					<div class="grid__item">
+					<div class="grid__img"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__img"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__img"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__img"></div>
+				</div>
+			</div>
+	</script>
+	<script src="/public/bundle.js"></script>
+</body>
+</html>
